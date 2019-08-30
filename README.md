@@ -29,8 +29,8 @@ The end result should look something like this in the `console`:
 If you're stuck, start by taking a look at how functions are defined and called in JS in our [intro lesson]().
 
 
-<details><summary>Help me with the `add` function plz!</summary>
- The first function should look something like this:
+<details><summary>Help me with the <code>add</code> function plz!</summary>
+ The `add` function should look something like this:
 
 ```js
 const add = (num1, num2) => {
@@ -42,9 +42,7 @@ const add = (num1, num2) => {
 </details>
 
 
-
-
-<details><summary>I'm STILL stuck!</summary>
+<details><summary>Help me with the <code>calculate</code> function</summary>
 Here is the structure of calculate:
 
 ```js
