@@ -30,7 +30,7 @@ If you're stuck, start by taking a look at how functions are defined and called 
 
 
 <details><summary>Help me with the <code>add</code> function plz!</summary>
- The `add` function should look something like this:
+  The <code>add</code> function should look something like this:
 
 ```js
 const add = (num1, num2) => {
@@ -43,7 +43,7 @@ const add = (num1, num2) => {
 
 
 <details><summary>Help me with the <code>calculate</code> function</summary>
-Here is the structure of calculate:
+  Here is the structure of <code>calculate</code>:
 
 ```js
 const calculate = () => {
