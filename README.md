@@ -1,12 +1,10 @@
 # js-functions-loops-logic-lab
-Let's get some practice with basic JavaScript! This repository contains a series of mini labs challenging you to write basic JS programs to solve problems.
+Functions, loops, and conditional logic are the core of problem solving in JavaScript. Let's master them! This repository contains a series of mini labs challenging you to write basic JS programs to solve problems.
 
-You may want to refer to...
-
-To get started, `cd` into your `week-1` folder and `mkdir` a folder called `js-practice` and `cd` into it. 
+To get started, `cd` into your `week-1` folder. Then `mkdir` a folder called `js-practice` and `cd` into that. You'll be doing all of your work inside the `js-practice` folder. 
 
 ## Calculator
-Let's warm up by making some methods to do basic math.
+Let's warm up by making some functions to do basic math.
 - In your `js-practice` folder, `touch` files called `index.html` and `calculator.js`
 - Set up your boilerplate HTML in `index.html` and connect it to `calculator.js`. You wont need anything in the body of your HTML file.
 - Inside `calculator.js`, define an arrow function called `add` that takes two numbers and adds them together. On the first line of this function, do the actual math; on the second line, use `return` to print a string that shows both the expression and answer.
@@ -25,8 +23,6 @@ The end result should look something like this in the `console`:
 5 * 3 = 15
 5 / 3 = 1.6666666666666667
 ```
-
-If you're stuck, start by taking a look at how functions are defined and called in JS in our [intro lesson]().
 
 
 <details><summary>Help me with the <code>add</code> function plz!</summary>
@@ -61,20 +57,20 @@ calculate()
 </details>
 
 ## Letter Guesser
-- In your folder, `touch` a file called `letter.rb`.
-- Define a method called `letter_guesser`.
-- Inside your method, create an array from "a" to "z" using the `range` syntax and save this array to a variable.
-- Using `rand`, generate a random number between 0 and the length of your alphabet array. Save this number to a variable.
-- Use that random number as an index and select the correlating letter from your alphabet array.
-- Using string interpolation, inform the user what letter they have received and ask them to guess the letter's index number.
-- Save the user's answer to a variable with `gets.chomp`.
-- Use conditional logic to check if the user's guess matches the actual index of the random letter. If it does, tell them that they're a genius at the alphabet; if it doesn't match, tell them that they need to learn their ABCs and use string interpolation to give them the correct answer.
-- Make sure to close your `letter_guesser` method with `end`.
+- In your `js-practice` folder, `touch` a file called `letteGuesser.js`.
+- In your `index.html` file, change the `src` or the JavaScript to `letterGuesser.js`.
+- In `letterGuesser.js`, define a function called `letterGuesser`.
+- Inside your function, create an array of letters from "a" to "z" and save this array to a variable.
+- Using `Math.random()`, generate a random number between 0 and the length of your alphabet array. Save this number to a variable.
+- Use that random number as an index to select the correlating letter from your alphabet array.
+- Using string interpolation and `prompt()`, inform the user what letter they have received, ask the user to guess the letter's index number, and save that guess to a variable.
+- Make sure the guess's data type is a number!
+- Use conditional logic to check if the user's guess matches the actual index of the random letter. If it does, use `alert()` to tell them that they're a genius at the alphabet; if it doesn't match, tell them that they need to learn their ABCs and use string interpolation to give them the correct answer.
 - Call `letter_guesser`.
-- Go back to the terminal and run the file you just created with `ruby letter.rb`
+- Save your work, go to the browser, and refresh to run the file you just created.
 
 
-The result should look something like this in your terminal:
+The result should look something like this:
 
 ```
 Your letter is c. Guess c's index number.
@@ -83,75 +79,27 @@ Whoa! You're like a genius when it comes to the alphabet!
 ```
 
 ```
-Your letter is z. Guess z's index number.
+Prompt: Your letter is z. Guess z's index number.
 1 
 You lose! Looks like you need to learn your ABC's. The index of z is actually 25.
 ```
 
-## FizzBuzz in Ruby
-Remember FizzBuzz? It's that puzzle where you iterate from 1 to 100, printing "Fizz" for every multiple of 3, "Buzz" for everything multiple of 5, and "FizzBuzz" for every multiple of 3 && 5. All other numbers should just print themselves.
 
-Let's write a solution for FizzBuzz in Ruby using a method with conditional logic.
-
-- In your folder, `touch` a file called `fizzbuzz.rb`
-- Open this file in your text editor and define a method called `fizzbuzz`. This method will not need any parameters.
-- OPTION A: Use the `.times do |num|` iterator to create a block where you iterate 100 times. Then use conditional logic to establish conditions for Fizz, Buzz, and FizzBuzz.
-- OPTION B: Create a `range` from 1 to 100 and iterate through it with `.each do |num|`. Then use conditional logic to establish conditions for Fizz, Buzz, and FizzBuzz.
-- Make sure to end any open blocks and close the method.
-- Below your newly defined method, call `fizzbuzz`.
-- Go back to the terminal and run the file you just created with `ruby fizzbuzz.rb`
-
-The result should look something like this in your terminal:
-
-```
-1
-2
-Fizz
-4
-Buzz
-Fizz
-7
-8
-Fizz
-Buzz
-11
-Fizz
-13
-14
-FizzBuzz
-16
-(etc to 100)
-```
-
-
-## UNCLE writing ON facebook WALL app
-- In your folder, create a file called `uncle_speak.rb`. 
-- Open this file in your text editor and define a method called `uncle_speak`. This method will not need any parameters.
-- Inside this method, use `puts` to ask the user to write a sentence.
-- Capture the user's input with `gets.chomp` and save that input to a variable. 
-- Find a string method that will divide that sentence into an array and save the resulting array as a new variable.
-- User the `.each_with_index` method to iterate through the array.
-- Inside this loop, use conditional logic and the modulus operator to puts each word, alternating between lower- and upper- case letters.
-- Make sure to end any open blocks and close the method.
-- Below your newly defined method, call `uncle_speak`.
-- Go back to the terminal and run the file you just created with `ruby uncle_speak.rb`
-
-The result should look something like this in your terminal:
-
-```
-Type a sentence:
-Learning code is hard but it's also kind of fun!
-LEARNING
-code
-IS
-hard
-BUT
-it's
-ALSO
-kind
-OF
-fun!
-```
+## MadLibs
+- Touch a file called `madlibs.js`.
+- Create a function called `madlibs`.
+- Using `prompt()` and ask players if they'd like to do story one or story two. 
+- Using conditional logic, create three seperate routes based off the user's answer:
+  - if they typed "one" - they play story one
+  - if they typed "two" - they play story two
+  - if they type anything else, inform them that they need to type "one" or "two", then restart the game.
+- For story one, prompt them for the following: 
+  - 3 adjectives, 3 nouns, 4 plural nouns, 4 verbs ending in "ing", a game, a plant, a part of the body (don't be gross!), a place, and a number.
+- Then, using string interpolation, insert the user's responses into the following story:
+- For story two, prompt them for the following:
+- Then, using string interpolation, insert the user's responses into the following story:
+- After each story, ask if they'd like to play again.
+- If they answer "yes" restart the game, otherwise, say "the end" and end the game.
 
 ## Sorting Hat
 The Sorting Hat drank too much butterbeer last night and can't remember what house anyone's supposed to be in. Luckily, you have a backup copy in the form of an array of objects below. 
