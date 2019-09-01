@@ -1,7 +1,7 @@
 # The JS Gauntlet Lab
 Functions, loops, and conditional logic are the core of problem solving in JavaScript. Let's master them! This repository contains a series of mini labs challenging you to write basic JS programs to solve problems.
 
-You can play any of the games here: [Brian's JavaScript Gauntlet!](js-gauntlet.surge.sh)
+You can play any of the games here: [Brian's JavaScript Gauntlet!](http://js-gauntlet.surge.sh)
 
 To get started, `cd` into your `week-1` folder. Then `mkdir` a folder called `js-practice` and `cd` into that. You'll be doing all of your work inside the `js-practice` folder. 
 
