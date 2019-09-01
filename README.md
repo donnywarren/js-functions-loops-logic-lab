@@ -94,10 +94,11 @@ You lose! Looks like you need to learn your ABC's. The index of z is actually 25
   - if they typed "two" - they play story two
   - if they type anything else, inform them that they need to type "one" or "two", then restart the game.
 - For story one, prompt them for the following: 
-  - 3 adjectives, 3 nouns, 4 plural nouns, 4 verbs ending in "ing", a game, a plant, a part of the body (don't be gross!), a place, and a number.
-- Then, using string interpolation, insert the user's responses into the following story:
+  - 
+- Then, using string interpolation, insert the user's responses into the following story: [story one](/story-one.md)
 - For story two, prompt them for the following:
-- Then, using string interpolation, insert the user's responses into the following story:
+
+- Then, using string interpolation, insert the user's responses into the following story: [story two](/story-two.md)
 - After each story, ask if they'd like to play again.
 - If they answer "yes" restart the game, otherwise, say "the end" and end the game.
 
