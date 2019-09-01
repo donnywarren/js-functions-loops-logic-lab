@@ -1,12 +1,13 @@
 # The JS Gauntlet Lab
-Functions, loops, and conditional logic are the core of problem solving in JavaScript. Let's master them! This repository contains a series of mini labs challenging you to write basic JS programs to solve problems.
+Functions, loops, and conditional logic are the core of problem solving in JavaScript. Let's master them! This repository contains a series of mini labs challenging you to write basic JS tools and games.
 
-You can play any of the games here: [Brian's JavaScript Gauntlet!](http://js-gauntlet.surge.sh)
+You can play any of the finished programs here: [Flynn's JS Arcade!](http://js-gauntlet.surge.sh)
 
 To get started, `cd` into your `week-1` folder. Then `mkdir` a folder called `js-practice` and `cd` into that. You'll be doing all of your work inside the `js-practice` folder. 
 
 ## Calculator
 Let's warm up by making some functions to do basic math.
+
 - In your `js-practice` folder, `touch` files called `index.html` and `calculator.js`
 - Set up your boilerplate HTML in `index.html` and connect it to `calculator.js`. You wont need anything in the body of your HTML file.
 - Inside `calculator.js`, define an arrow function called `add` that takes two numbers and adds them together. On the first line of this function, do the actual math; on the second line, use `alert()` to print a string that shows both the expression and answer.
@@ -51,7 +52,9 @@ calculate()
 </details>
 
 ## Letter Guesser
-- In your `js-practice` folder, `touch` a file called `letteGuesser.js`.
+This is a simple game where you're given a letter and you have to guess its index number.
+
+- In your `js-practice` folder, `touch` a file called `letterGuesser.js`.
 - In your `index.html` file, change the `src` or the JavaScript to `letterGuesser.js`.
 - In `letterGuesser.js`, define a function called `letterGuesser`.
 - Inside your function, create an array of letters from "a" to "z" and save this array to a variable.
@@ -80,6 +83,8 @@ You lose! Looks like you need to learn your ABC's. The index of z is actually 25
 
 
 ## MadLibs
+Remember these? Basically, you blindly fill in a bunch of words in a story, then you read the story and hilarity ensues.
+
 - `Touch` a file called `madlibs.js`.
 - In your `index.html` file, change the `src` or the JavaScript to `madlibs.js`.
 - Create a function called `madlibs`.
@@ -106,9 +111,9 @@ BONUS
 
 
 ## D&D Dice Roll
-You're playing Dungeons and Dragons, but you accidentally dropped your 20 sided dice underneath the couch before the final battle, and there's a tangled, sticky mess of Cheeto dust, maple syrup (don't ask), and cat hair down there, so there's no way you're picking that thing up.  
+You're playing Dungeons and Dragons, but you accidentally dropped your 20-sided die underneath the couch before the final battle, and there's a tangled, sticky mess of Cheeto dust, maple syrup (don't ask), and cat hair down there, so there's no way you're picking that thing up.  
 
-No worries, you can just go with the next best solution: writing a program in JavaScript that can figure out your attack rolls for you!
+No worries! You can just go with the next best solution: writing a program in JavaScript that can figure out your attack rolls for you!
 
 - In your `js-practice` folder, `touch` a file called `dungeons.js`.
 - In your `index.html` file, change the `src` or the JavaScript to `dungeons.js`.
