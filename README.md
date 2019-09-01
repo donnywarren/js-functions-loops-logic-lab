@@ -124,7 +124,8 @@ No worries, you can just go with the next best solution: writing a program in Ja
     - If an attacker rolls a 19 or 20, they get a critical hit and do 20 damage.
   - Use `alert()` with string interpolation after each attack to inform the user what happened and how much of each fighter's health remains.
   - Continue the battle until one of the fighters' health has been reduced to zero. When this happens, use string interpolation to declare the winner and loser by name.
-- Below your newly defined function, call `fight()`.
+  - Bonus: Add an additional condition in case they kill each other on the final blow!
+- Below your newly defined function, invoke `fight()`.
 - Go to the browser and run the file you just created.
 
 BONUS
