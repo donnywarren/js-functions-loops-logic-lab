@@ -1,4 +1,5 @@
 # The JS Gauntlet Lab
+![](https://media.giphy.com/media/10fBhxySxYZfHy/giphy.gif)
 Functions, loops, and conditional logic are the core of problem solving in JavaScript. Let's master them! This repository contains a series of mini labs challenging you to write basic JS tools and games.
 
 You can play any of the finished programs here: [Flynn's JS Arcade!](http://js-gauntlet.surge.sh)
