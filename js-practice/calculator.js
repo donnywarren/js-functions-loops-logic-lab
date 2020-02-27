@@ -1,21 +1,30 @@
-function add(num1, num2) {
+const add = (num1, num2) => {
   let total = num1 + num2;
   alert(`${num1} + ${num2} = ${total}`);
 }
 
-function subtract(num1, num2) {
+const subtract = (num1, num2) => {
   let total = num1 - num2;
   alert(`${num1} - ${num2} = ${total}`);
 }
 
-function multiply(num1, num2) {
+const multiply = (num1, num2) => {
   let total = num1 * num2;
   alert(`${num1} * ${num2} = ${total}`);
 }
 
-function divide(num1, num2) {
+const divide = (num1, num2) => {
   let total = num1 / num2;
   alert(`${num1} / ${num2} = ${total}`);
 }
 
-console.log(divide(4, 5));
+const calculate = () => {
+  let num1 = parseInt(prompt("Enter first number:"));
+  let num2 = parseInt(prompt("Enter second number:"));
+  add(num1, num2);
+  subtract(num1, num2);
+  multiply(num1, num2);
+  divide(num1, num2);
+}
+
+calculate();
