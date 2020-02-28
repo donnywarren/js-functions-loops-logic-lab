@@ -1,6 +1,6 @@
 const madlibs = () => {
   let choice = prompt('Would you like to do story one or story two?');
-  if (choice === one) {
+  if (choice === "one") {
 
     const adj1 = prompt("type an adjective");
     const place1 = prompt("type a general place");
@@ -19,7 +19,7 @@ const madlibs = () => {
 
     alert(storyOne);
 
-  } else if (choice === two) {
+  } else if (choice === "two") {
 
 
     const adj1 = prompt("type an adjective");
@@ -46,4 +46,6 @@ const madlibs = () => {
     madlibs();
   }
 }
+
+madlibs();
 
